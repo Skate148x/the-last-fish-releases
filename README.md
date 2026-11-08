@@ -16,6 +16,10 @@ Updates never install during normal play or automatically on ordinary quit. The 
 
 Preview **0.4.23-beta.3** is a version-only test update. On beta 2, import your browser save, note your money, fish remaining, backpack, upgrades and settings, then update through the game. Do not re-import afterward: confirm the existing desktop save loads unchanged.
 
+## Display mode (beta 4 and later)
+
+Open **Settings → Graphics & display → Display mode** to choose Fullscreen or Windowed. F11 and Alt+Enter switch the same saved setting. New installations default to fullscreen; later launches remember the chosen mode. Windowed size, position, and maximized state are retained, with recovery onto an available monitor if the old monitor is disconnected. Minimized state is never restored. Display preferences are separate from fishing saves and survive game updates and browser-save imports.
+
 ## Saves
 
 Saves and rolling backups remain in `%APPDATA%\TheLastFish\Saves`, separately from the game files. **Alt → Game → Open save backups** opens this folder. Exporting a backup before the first update test is recommended.
