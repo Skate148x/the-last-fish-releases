@@ -7,10 +7,14 @@ Windows preview downloads and update metadata. Game source is maintained separat
 1. Close the old desktop game.
 2. Install **0.4.23-beta.1**, choosing the suggested **C:\Games\The Last Fish** folder (or another dedicated folder named The Last Fish).
 3. Launch with the new desktop shortcut. Existing progress is read from the same save folder.
-4. The game checks for a newer preview shortly after launch. Download **beta 2**, then pause and choose **Save & restart to update**.
-5. Confirm that the game restarts, **Alt → Game → Check for updates** reports beta 2, and your fish, money, upgrades, and settings are still present.
+4. The game checks for a newer preview shortly after launch. Download the **newest preview**, then pause and choose **Save & restart to update**.
+5. Confirm that the game restarts, **Alt → Game → Check for updates** reports the new preview version, and your fish, money, upgrades, and settings are still present.
 
 Updates never install during normal play or automatically on ordinary quit. The restart is blocked if the current shift cannot be saved. Offline update checks do not prevent playing.
+
+## Imported-save preservation check
+
+Preview **0.4.23-beta.3** is a version-only test update. On beta 2, import your browser save, note your money, fish remaining, backpack, upgrades and settings, then update through the game. Do not re-import afterward: confirm the existing desktop save loads unchanged.
 
 ## Saves
 
