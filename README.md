@@ -28,6 +28,10 @@ Escape is routed through the desktop app so a second press can resume mouse-look
 
 Player-facing labels now use **Playtest Build 005, 006, …** for small updates. Internal semver and prerelease tags are retained for compatibility with existing updaters; those tags do not represent game-development milestones.
 
+## Patch notes
+
+Open **Patch notes** on the main menu to read the bundled update history, including offline. Notes use simple build headings and change lists. Entries group worthwhile batches of changes; every small playtest build does not receive a separate entry. Early desktop setup builds are consolidated to keep the list short.
+
 ## Saves
 
 Saves and rolling backups remain in `%APPDATA%\TheLastFish\Saves`, separately from the game files. **Alt → Game → Open save backups** opens this folder. Exporting a backup before the first update test is recommended.
