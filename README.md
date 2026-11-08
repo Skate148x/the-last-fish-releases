@@ -20,6 +20,14 @@ Preview **0.4.23-beta.3** is a version-only test update. On beta 2, import your 
 
 Open **Settings → Graphics & display → Display mode** to choose Fullscreen or Windowed. F11 and Alt+Enter switch the same saved setting. New installations default to fullscreen; later launches remember the chosen mode. Windowed size, position, and maximized state are retained, with recovery onto an available monitor if the old monitor is disconnected. Minimized state is never restored. Display preferences are separate from fishing saves and survive game updates and browser-save imports.
 
+## Desktop controls — Playtest Build 005
+
+The main menu has an **Exit game** button beside Settings. To leave a live shift, use **Save & return to title**, then **Exit game**. Failed live-shift saves block leaving, and title-screen exit preserves the stored player location.
+
+Escape is routed through the desktop app so a second press can resume mouse-look without clicking the water. Pause still releases the cursor. This also applies when returning from Settings; native Windows capture behavior needs player verification.
+
+Player-facing labels now use **Playtest Build 005, 006, …** for small updates. Internal semver and prerelease tags are retained for compatibility with existing updaters; those tags do not represent game-development milestones.
+
 ## Saves
 
 Saves and rolling backups remain in `%APPDATA%\TheLastFish\Saves`, separately from the game files. **Alt → Game → Open save backups** opens this folder. Exporting a backup before the first update test is recommended.
